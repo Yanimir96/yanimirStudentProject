@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact us</title>
+        <meta charset="UTF-8"/>
+        <style>
+            body {
+                background-image: url("moon.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <table width="100%">
+                <tr>
+                    <td>
+                        <img src="Logo.png" alt="Logo of the site" width="70px"/>
+                    </td>
+                    <td width="9%">
+                        <a href="News.html">News</a>
+                    </td>
+                    <td width="10%">
+                        <a href="ContactUs.html">Contact us</a>
+                    </td>
+                    <td width="45%">
+                        <a href="Gallery.html">Gallery</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="Homepage.html">Planets</a>
+                        &nbsp;
+                        <span>></span>
+                        &nbsp;
+                        <a href="ContactUs.html">Contact us</a>
+                    </td>
+                </tr>
+            </table>
+        </header>
+        <main>
+            <table width="100%" style="padding-left: 300px;">
+                <tr>
+                    <td>
+                        <h1  style="padding-left: 250px">Contact us</h1>
+                        <p>If you have any questions abour anything related to our site, please feel free to ask us with the for below:</p>
+                        <table>
+                            <form method="GET" action="serverSimulation.html">
+                            <tr>
+                                <td>
+                                    <label for="name">Your name:</label>
+                                </td>
+                                <td >
+                                    <input type="text" placeholder="Fill your name" name="name" id="name" title="Only letters" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="email">Email:</label>
+                                </td>
+                                <td>
+                                    <input type="email" placeholder="Example@domain.com" name="email" id="email" title="Should have 'At sign'(@)" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="reason">Reason for contacting us:</label>
+                                </td>
+                                <td>
+                                    <select name="reason" id="reason" required>
+                                        <option value="reason1">I need help</option>
+                                        <option value="reason2">I want to report a bug</option>
+                                        <option value="reason3">I want to talk with the CEO about some project</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="msg">Your message:</label>
+                                </td>
+                                <td>
+                                    <textarea name="msg" id="msg" required></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 250px" colspan="2">
+                                    <br/>
+                                    <input type="submit" value="Submit Query">
+                                </td>
+                            </tr>
+                        </form>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </main>
+    </body>
+</html>
