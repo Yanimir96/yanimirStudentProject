@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact us</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <table width="100%">
+            <tr>
+                <td>
+                    <img src="Logo.png" width="70px"/>
+                </td>
+                <td>
+                    <a href="Dom2.html">About us</a>
+                </td>
+                <td>
+                    <a href="Dom2.1.html">Contact us</a>
+                </td>
+            </tr>
+        </table>
+        <table width="100%">
+            <tr>
+                <td>
+                    <h1>Contact us</h1>
+                    <p>If you have any questions abour anything related to our site, please feel free to ask us with the for below:</p>
+                    <br/>
+                    <table>
+                        <form action="serverSimulation.html">
+                            <label for="name">Your name:</label>
+                            <input type="text" placeholder="Fill your name" name="name" id="name" title="Only letters" required>
+                            <br/>
+                            <br/>
+                            <label for="email">Email:</label>
+                            <input type="email" placeholder="Example@domain.com" name="email" id="email" title="Should have 'At sign'(@)" required>
+                            <br/>
+                            <br/>
+                            <label for="reason">Reason for contacting us:</label>
+                            <select name="reason" id="reason" required>
+                                    <option value="reason1">I need help</option>
+                                    <option value="reason2">I want to report a bug</option>
+                                    <option value="reason3">I want to talk with the SEO about some project</option>
+                            </select>
+                            <br/>
+                            <br/>
+                            <label for="msg">Your message:</label>
+                            <textarea name="msg" id="msg" required></textarea>
+                            <br/>
+                            <br/>
+                            <input type="submit" value="Submit Query">
+                        </form>
+                    </table>
+                </td>
+                <td width="50%">
+                    <img src="Support.jpg" width="80%"/>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
