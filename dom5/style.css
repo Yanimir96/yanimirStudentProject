@@ -1,0 +1,53 @@
+body{
+    background-color: #34495e;
+}
+
+h1{
+    color: #ffffff;
+    font-family: "Verdana";
+    font-size: 20px;
+}
+.personBox{
+    background-color: #e74c3c;
+}
+
+table {
+    border: none; 
+    border-spacing: 0px;
+}
+.boxSpace{
+    background-color: transparent;
+}
+
+ul {
+    list-style-type: none;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+  }
+
+.personName{
+    color: #ffffff;
+    font-weight: bolder;
+    font-family: "Verdana";
+    font-size: 20px;
+}
+
+.personInfo{
+    color: #ffffff;
+    font-family: "Verdana";
+    font-weight: bold;
+    font-size: 14px;
+    line-height:20px;
+
+}
+
+span{
+    color: #f1c40f;
+    font-size: 10px;
+    font-family: "Verdana";
+    font-weight: initial;
+}
+
+.imagePerson{
+    width: 100px
+}
