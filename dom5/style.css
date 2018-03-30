@@ -13,6 +13,7 @@ h1{
 
 table {
     border: none; 
+    /* --- Когато имаш стойност 0, не е необходимо да слагаш мерна единица. Не че е проблем ако го оставиш, просто е излишно. ---*/
     border-spacing: 0px;
 }
 .boxSpace{
@@ -21,6 +22,7 @@ table {
 
 ul {
     list-style-type: none;
+    /* --- Няма нужда да използваш margin-before, предостатъчно е просто margin:0 --- */
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
   }
@@ -28,6 +30,7 @@ ul {
 .personName{
     color: #ffffff;
     font-weight: bolder;
+    /* --- Няма нужда да слагаш font-family на всеки един елемент. Можеш да го поставиш на body тага, и той ще се предаде на всички елементи под него --- */
     font-family: "Verdana";
     font-size: 20px;
 }
@@ -45,6 +48,8 @@ span{
     color: #f1c40f;
     font-size: 10px;
     font-family: "Verdana";
+    /* --- Причината, заради която ви карах да нямате текст и таг на едно и също ниво, е точно за да избегнете нуждата от презаписване на стилове. ---*/
+    /* --- Ако поставиш текста във span да речем, ще можеш да зададеш само font-weight:bold само на него. ---*/
     font-weight: initial;
 }
 
